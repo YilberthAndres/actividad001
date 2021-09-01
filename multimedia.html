@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet"  href="estilo.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CR7-Multimedia</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="contenedor">
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="iniciar.html">Iniciar sesion</a></li> 
+                <li><a href="reguistrar.html">Registrate</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+<style type="text/css">
+h2{
+    color:beige;
+}
+
+video{
+    width: 500;
+    height: 300;
+}
+</style>
+<br>
+</br>
+<br>
+</br>
+<center> <h2> AUDIOS </h2></center>
+<br>
+<center> <audio src="audio/Cr7_Audio.mp3" id="audioM" autoplay=false controls="" ></audio> </center>
+<br>
+</br>
+<center> <h2> VIDEOS </h2></center>
+<br>
+</br>
+<center> <video src="video/Local.mp4" width="560" height="315" controls="">  </video> </center>
+<br>
+</br>
+<center> <iframe width="560" height="315" src="https://www.youtube.com/embed/pBom7tL15C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<script>
+    mivideo = document.getElementById('audioM');
+    mivideo.autoplay = false;
+
+</script>
+
+</body>
+</html>

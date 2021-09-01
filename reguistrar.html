@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="estilo.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reguistrar</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="contenedor">
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="iniciar.html">Iniciar sesion</a></li> 
+                <li><a href="reguistrar.html">Registrate</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <style type="text/css">
+.form{
+    
+    top: 20%;
+    width: 510px;
+    height: 430px;
+
+}
+
+
+
+input[type=text]{
+ 
+ width: 470px;
+ height: 30px;
+ font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+
+input[type=submit]{
+
+
+margin-left: 0px;
+}
+
+
+
+input[type=password]{
+ 
+ width: 470px;
+ height: 30px;
+ font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+.btn-en{
+    
+    position: relative;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 15px 30px;
+   
+    color:#fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transform: 0.2s;
+}
+
+
+input[type=submit]{
+    background: greenyellow;
+}
+
+.btn-en:hover{
+    background: rgb(17, 233, 17);
+    box-shadow: 0 0 10px rgb(17, 233, 17), 0 0 40px rgb(17, 233, 17), 0 0 80px rgb(17, 233, 17);
+    
+}
+    </style>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class= "form">
+        <form>
+            <label for="nombre"> <center> Reguistro  </center></label>
+            <br>
+         <label for="nombre"> <center> <small>Nombre </small> </center></label>
+         
+         <input type="text" name="nombre" placeholder="nombre" required="">
+         <br>
+         <br>
+         <label for="correo"> <center> Direccion de correo </center></label >
+         
+         <input type="text" name="correo" placeholder="mail@mail.com" required="">
+         <br>
+         <br>
+         <br>
+         <label for="nombre"> <center> Establesca contraseña </center></label>
+         
+         <input type="password" name="pss" placeholder="" required="">
+         <br>
+         <br>
+         <label for="correo"> <center> Confirmar contraseña </center></label >
+         
+         <input type="password" name="correo" placeholder="" required="">
+         <br>
+         <br>
+
+           <center> <input type="submit" value="Reguistrar" class="btn-en" >  </center>
+          
+        </form>
+     </div>
+
+</body>
+</html>

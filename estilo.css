@@ -1,0 +1,259 @@
+
+body{
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f85032+0,f16f5c+50,f6290c+51,f02f17+71,e73827+100;Red+Gloss+%231 */
+background: #f85032; /* Old browsers */
+background: -moz-linear-gradient(top,  #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */
+
+}
+
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    float: left;
+}
+
+#navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+
+}
+
+#navbar a:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+background: #febbbb; /* Old browsers */
+background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+
+    animation:1s ms 1;
+ 
+
+}
+
+@keyframes ms{
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+#navbar{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f85032+0,f16f5c+50,f6290c+51,f02f17+71,e73827+100;Red+Gloss+%231 */
+background: #f85032; /* Old browsers */
+background: -moz-linear-gradient(top,  #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */
+
+    width: 1000px;
+    height: 52px;
+}
+
+img{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    padding-left: 0px;
+    padding-top: 20px;
+
+}
+
+h1{
+  
+    color: white;
+    padding-left: 300px;
+}
+
+h3{
+    
+    color: white;
+}
+
+h4{
+    
+    color: white;
+}
+
+h5{
+    
+    color: white;
+}
+
+
+
+pre{
+    
+    color: white;
+}
+
+#regreso{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+#madrid{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+#juve{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+#sp{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+#HJL{
+    padding-left: 150px;
+}
+
+#HSL{
+    padding-left: 135px;
+}
+
+a{
+    padding-left: 0px;
+    color: honeydew;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(17, 233, 222);
+    
+}
+
+.btn-en{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:#fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transform: 0.2s;
+}
+
+.btn-en:hover{
+    background: rgb(17, 233, 222);
+    box-shadow: 0 0 10px rgb(17, 233, 222), 0 0 40px rgb(17, 233, 222), 0 0 80px rgb(17, 233, 222);
+    
+}
+
+.btn-li{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:#fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transform: 0.2s;
+}
+
+.btn-li:hover{
+    background: rgb(236, 32, 32);
+    box-shadow: 0 0 10px rgb(236, 32, 32), 0 0 40px rgb(236, 32, 32), 0 0 80px rgb(236, 32, 32);
+    
+}
+
+
+
+
+.form{
+    position:relative;
+    width: 540px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: auto;
+}
+
+
+input[type=text]{
+ 
+    width: 440px;
+    height: 30px;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+
+
+
+textarea{
+
+    width: 440px;
+    height: 110px;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+}
+
+input[type=submit]{
+
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border: 0px;
+    background-color: #00aeff;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+
+input[type=reset]{
+
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border: 0px;
+    background-color: #fc0808;
+    font: 14px normal normal uppercase helvatica, arial, serif;
+
+}
+
+p{
+    color: rgb(245, 241, 241);
+}
+
+label{
+
+    margin: 11px 20px 0 0;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+table{
+    width: 100%;
+}
